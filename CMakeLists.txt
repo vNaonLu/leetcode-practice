@@ -8,6 +8,7 @@ add_executable(leetcode
   src/main.cpp
   src/solution.h
   src/0022_GenerateParenthesis/source.cpp
+  src/0010_RegularExpressionMatching/source.cpp
 )
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
