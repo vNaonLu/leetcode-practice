@@ -36,7 +36,12 @@ std::vector<std::string> Solution::generateParenthesis(int parenthesisCount){
   return returnValue;
 }
 
-void Solution::_0022_solveGenerateParenthesis(int parenthesisCount){
+void Solution::_0022_solveGenerateParenthesis(){
+  int parenthesisCount = 0;
+  std::cout << "Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses." << std::endl;
+  std::cout << "Constraints: 1 <= n <= 8" << std::endl;
+  std::cout << "n = ";
+  std::cin >> parenthesisCount;
   auto answer = Solution::generateParenthesis(parenthesisCount);
   for(auto expression : answer)
     std::cout << expression << std::endl;
