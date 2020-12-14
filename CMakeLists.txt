@@ -9,6 +9,7 @@ add_executable(leetcode
   src/solution.h
   src/0010_RegularExpressionMatching/source.cpp
   src/0022_GenerateParenthesis/source.cpp
+  src/0032_LongestValidParentheses/source.cpp
   src/0042_TrappingRainWater/source.cpp
 )
 

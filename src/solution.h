@@ -10,6 +10,9 @@ class Solution{
     // 0022
     static std::vector<std::string> generateParenthesis(int parenthesisCount);
     static void _0022_solveGenerateParenthesis();
+    // 0032
+    static int longestValidParentheses(std::string parenthesisString);
+    static void _0032_solveLongestValidParentheses();
     // 0042
     static int trap(std::vector<int> &height);
     static void _0042_solveTrappingRainWater();
